@@ -1,9 +1,9 @@
-Contributing to Bitcoin ABC
+Contributing to Bcash
 ===========================
 
-The Bitcoin ABC project welcomes contributors!
+The Bcash project welcomes contributors!
 
-This guide is intended to help developers contribute effectively to Bitcoin ABC.
+This guide is intended to help developers contribute effectively to Bcash.
 
 Communicating with Developers
 -----------------------------
@@ -25,10 +25,10 @@ It is not for:
 * Market discussion
 * Non-constructive criticism
 
-Bitcoin ABC Development Philosophy
+Bcash Development Philosophy
 ----------------------------------
 
-Bitcoin ABC aims for fast iteration and continuous integration.
+Bcash aims for fast iteration and continuous integration.
 
 This means that there should be quick turnaround for patches to be proposed,
 reviewed, and committed. Changes should not sit in a queue for long.
@@ -54,9 +54,9 @@ If a Diff is landed, and breaks the build, fix it quickly. If it cannot be fixed
 quickly, it should be reverted, and re-applied later when it no longer breaks the build.
 - Automate as much as possible, and spend time on things only humans can do.
 
-Here are some handy links for development practices aligned with Bitcoin ABC:
+Here are some handy links for development practices aligned with Bcash:
 
-- [Statement of Bitcoin ABC Values and Visions](https://www.yours.org/content/bitcoin-abc---our-values-and-vision-a282afaade7c)
+- [Statement of Bcash Values and Visions](https://www.yours.org/content/bitcoin-abc---our-values-and-vision-a282afaade7c)
 - How to Do Code Reviews Like a Human [Part 1](https://mtlynch.io/human-code-reviews-1/) [Part 2](https://mtlynch.io/human-code-reviews-2/)
 - [Large Diffs Are Hurting Your Ability To Ship](https://medium.com/@kurtisnusbaum/large-diffs-are-hurting-your-ability-to-ship-e0b2b41e8acf)
 - [Stacked Diffs: Keeping Phabricator Diffs Small](https://medium.com/@kurtisnusbaum/stacked-diffs-keeping-phabricator-diffs-small-d9964f4dcfa6)
@@ -65,7 +65,7 @@ Here are some handy links for development practices aligned with Bitcoin ABC:
 - [Advantages of monolithic version control](https://danluu.com/monorepo/)
 
 
-Getting set up with the Bitcoin ABC Repository
+Getting set up with the Bcash Repository
 ----------------------------------------------
 
 1. Create an account at `https://reviews.bitcoinabc.org/`
@@ -118,7 +118,7 @@ may have to install clang-format-4.0 and autopep8. clang-format-4.0.0 can be ins
 from http://releases.llvm.org/download.html
 
 
-Working with The Bitcoin ABC Repository
+Working with The Bcash Repository
 ---------------------------------------
 
 A typical workflow would be:
@@ -159,7 +159,7 @@ as the Diff number, reviewers, etc.).
 - When reviewers approve your Diff, it should be listed as "ready to Land"
 in Phabricator. When you want to commit your diff to the repository, check out
 type my-topic-branch in git, then type `arc land`. You have now succesfully 
-committed a change to the Bitcoin ABC repository.
+committed a change to the Bcash repository.
 
 - When reviewing a Diff, apply the changeset on your local by using 
 `arc patch D{NNNN}`
